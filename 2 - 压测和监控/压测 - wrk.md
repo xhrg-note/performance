@@ -1,11 +1,7 @@
-
-
-
 工具优势：xxx
 
 
-* wrk：https://www.cnblogs.com/quanxiaoha/p/10661650.html
-
+* wrk：
 
 
 常用例子
@@ -25,9 +21,11 @@ wrk -t4 -c1000 -d30s --latency www.baidu.com
 -H --header 在请求头部添加一些参数
 --latency 压测报告输出请求回包花费时间分布
 --timeout 请求的最大超时时间(s),这个很有用
-
-作者：许亚文
-链接：https://juejin.im/post/6844903962244579341
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
+
+
+
+## 参考
+
+* https://juejin.im/post/6844903962244579341
+* https://www.cnblogs.com/quanxiaoha/p/10661650.html
