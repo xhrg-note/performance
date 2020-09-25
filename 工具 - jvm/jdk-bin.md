@@ -23,3 +23,6 @@ jcmd pid VM.native_memory baseline
 jcmd pid VM.native_memory summary
 
 ```
+
+
+## visualvm 可视化工具，有很多插件
